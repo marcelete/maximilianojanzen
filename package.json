@@ -1,0 +1,30 @@
+{
+  "name": "maximilianojanzen-resume",
+  "version": "1.0.0",
+  "description": "Curriculum Vitae Interactivo de Maximiliano Janzen",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "python -m http.server 8000"
+  },
+  "keywords": ["resume", "cv", "portfolio"],
+  "author": "Maximiliano Janzen",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "framer-motion": "^10.16.4",
+    "lucide-react": "^0.263.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.0",
+    "vite": "^4.4.0"
+  }
+}
